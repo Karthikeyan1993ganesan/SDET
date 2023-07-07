@@ -51,6 +51,7 @@ public class Nykaa {
 		driver.findElement(By.xpath("//span[text()='Add to Bag']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[@class='cart-count']")).click();
+		
 		Thread.sleep(2000);
 		System.out.println(driver.findElement(By.xpath("//span[@class='css-1um1mkq e171rb9k3']")).getText());
 		driver.findElement(By.xpath("//span[text() = 'Proceed']")).click();
